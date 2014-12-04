@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Test2</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="jquery-2.1.1.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<style>
+		@font-face {
+			font-family: Bliss;
+			src: url("fonts/bliss.otf") format("opentype");
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: Bicubik;
+			src: url("fonts/bicubik.ttf") format("opentype");
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="container">
+		<div class="arrow" id='prev'>
+			<img src="img/arrow-up-transparent.png" alt="up">
+		</div>
+		<div class="main-menu">
+			<div id="logo_text">
+				sphere<br \="">graphics
+			</div> 
+			<div id='letter_button'>
+				<a href="#/contacts">
+					<img id="letter" src="img/letter.png">
+				</a>
+			</div>
+		</div>
+		<div id="list-content">
+				<a href="">Дизайн интерьеров</a>
+				<a href="#/news">Иллюстрации</a>
+				<a href="#/biba">3D моделирование</a>
+				<a href="">Дизайн экстерьеров</a>
+		</div>
+		<div class="arrow down" id='next'>
+			<img src="img/arrow-down-transparent.png" alt="up">
+		</div>
+	</div>
+				<div id="contact_page" style="display: block;">
+				<div id="dark_overlay"></div>
+				<div id="controls_holder">
+					<div id="contact_data_row">
+						<div id="contact_labels">
+							Как к Вам обращаться?<br \=""><br \="">
+							Контактные данные<br \=""><br \="">
+							Текст сообщения
+						</div>
+						<div id="contact_form">
+							<div id="contact_success">Ваше сообщение отправлено. Спасибо!</div>
+							<form id="mails-form" method="POST">
+								<input id="contact_client" name="Mails[client_name]" placeholder="Ваше имя">
+							<input id="contact_contacts" name="Mails[client_contact]" placeholder="Контакты">
+							<textarea id="contact_message" rows="10" name="Mails[message]" placeholder="Сообщение"></textarea>
+							<input type="button" id="contact_submit" value="Отправить">
+							</form>
+						</div>
+						<div id="contact_info">
+							<p><span class="phone_code">(097)</span> <span class="phone_number">2700931</span> <span class="phone_desc">Иван, арт-директор</span></p>
+<p><span class="phone_code">(+7965)</span><br><span class="phone_number">1925626</span><br><span class="phone_desc">московский номер</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+	<a name="portfolio/1">
+		<ul class='portfolio active' id='0'>
+			<li><img src="img/img1.jpg" alt=""></li>
+			<li><img src="img/img2.jpg" alt=""></li>
+			<li><img src="img/img3.jpg" alt=""></li>
+			<li><img src="img/img4.jpg" alt=""></li>
+		</ul>
+	</a>
+
+	<a name="portfolio/2">
+		<ul class='portfolio' id='1'>
+			<li><img src="img/img10.jpg" alt=""></li>
+			<li><img src="img/img11.jpg" alt=""></li>
+			<li><img src="img/img12.jpg" alt=""></li>
+			<li><img src="img/img13.jpg" alt=""></li>
+		</ul>
+	</a>
+
+	<a name="portfolio/3">
+		<ul class='portfolio' id='2'>
+			<li><img src="img/img5.jpg" alt=""></li>
+			<li><img src="img/img6.jpg" alt=""></li>
+			<li><img src="img/img7.jpg" alt=""></li>
+			<li><img src="img/img8.jpg" alt=""></li>
+			<li><img src="img/img9.jpg" alt=""></li>
+		</ul>
+	</a>
+
+	<a name="portfolio/4">
+		<ul class='portfolio' id='3'>
+			<li><img src="img/img3.jpg" alt=""></li>
+			<li><img src="img/img2.jpg" alt=""></li>
+			<li><img src="img/img1.jpg" alt=""></li>
+		</ul>
+	</a>
+	<script src="script.js"></script>
+</body>
+</html>
